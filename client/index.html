@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Back End Assessment</title>
+<link rel="stylesheet" href="./index.css">
+  </head>
+  <body class="container">
+
+
+    <br>
+<br>
+<br>
+<h4>---------------------------------------------------------------------------------------------------------</h4>    <div>
+    <button class = 'button' id="complimentButton">Get a compliment</button>
+  </div>
+    
+<br>
+<br>
+<br>
+
+<h4>---------------------------------------------------------------------------------------------------------</h4><div>
+<button class = 'button' id="fortuneButton">Click for fortune</button>
+</div>
+
+<br>
+<br>
+<br>
+
+<h4>---------------------------------------------------------------------------------------------------------</h4><form class="forms" id="newFortuneForm">
+  <h1 for="fname">Add fortune</h1>
+  <br>
+  <input id ="addText" type="text"><br><br>
+  <input class = 'button' id = "newFortune" type="submit" value="Add">
+</form>
+
+<br>
+<br>
+<h4>---------------------------------------------------------------------------------------------------------</h4><form class="forms" id="deleteFortuneForm">
+  <h1 for="fname">Delete fortune</h1>
+  <br>
+  <label>Index Number</label>
+  <br>
+  <input id= "deleteIndex" type="number"><br><br>
+  <input class = 'button' id = "deleteFortune" type="submit" value="Delete">
+</form>
+<br>
+<br>
+<h4>---------------------------------------------------------------------------------------------------------</h4>
+<form class="forms" id="editFortuneForm">
+  <h1 for="fname">Edit fortune</h1>
+  <br>
+  <label>Index Number</label>
+  <input id = "editIndex" type="number"><br><br>
+  <label>Write new fortune</label>
+  <input type="text"><br><br>
+  <input class = 'button' id = "editFortune" type="submit" value="Add edits">
+</form>
+
+
+<br>
+<br>
+<br>
+
+
+
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
+    
+  </body>
+</html>
